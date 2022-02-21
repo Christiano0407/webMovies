@@ -1,0 +1,85 @@
+/*= Import =*/
+@import url(/src/css/mediaQueries/mediaCSS.css);
+/*= Root =*/
+:root {
+-/*=Color Basic=*/
+  --clr-white: #fff;
+  --clr-white2: #F2F2F2;
+  --clr-white3: #BFBFBF; 
+  --clr-black: #000;
+  --clr-black-2: #0d0d0d;
+  --clr-gray: #404040; 
+  --clr-primary: #ab04d9;
+  --clr-secondary: #0cf2b1;
+  /*= Colors UX Style =*/
+  --clr-ux-one: #45214a;
+  --clr-ux-two: #323050;
+  --clr-ux-green2: #5d8a66;
+  --clr-ux-red1: #F22248;
+  --clr-ux-red2: #BF0436;
+  --clr-ux-red3: #590222; 
+  /*=Typography=*/
+  --font-family-Poppins: 'Montserrat', sans-serif;
+  --font-family-Play: "Play", sans-serif;
+  /*=Font Size=*/
+  --font-size-extra: 3rem;
+  --font-size-title: 2.4rem;
+  --font-size-Big: 1.8rem;
+  --font-size-Medium: 1.6rem;
+  --font-size-medium-plus: 1.5rem;
+  --font-size-small: 1.2rem;
+  -font-size-small-plus: 0.8rem;
+  /*=Margins=*/
+  --margin-top: 2rem;
+  --margin-bottom: 2rem;
+  --margin-left: 1rem;
+  --margin-right: 1rem;
+  --margin: 0 auto;
+  /*=Text=*/
+  --letter-spacing: 0.1rem;
+}
+/* = Css Style General =*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+/* =Animation =*/
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    object-fit: cover;
+}
+p, span {
+    letter-spacing: 0.1rem;
+}
+h1, h2, h3 {
+    margin-bottom: 2rem;
+}
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}

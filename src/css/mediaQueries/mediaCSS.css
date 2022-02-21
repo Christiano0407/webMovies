@@ -1,0 +1,36 @@
+/* = Media Queries = */
+/*= XS (Mobile First)=*/
+@media only screen and (max-width: 360px) {
+}
+/*= SM  (Mobile First) =*/
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+}
+/*= MD  (Tablet) =*/
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+}
+/*=  LG (Laptop) =*/
+@media only screen and (min-width: 1024px) {
+}
+/*=  LG (Laptop and Screen) =*/
+@media only screen and (min-width: 1440px) {
+}
+/*=  LG (Laptop and Screen and More) =*/
+@media only screen and (min-width: 1920px) {
+}
+/* Design Model */
+@media screen and (orientation: landscape) {
+  // Styles for landscape mode.
+  body::after {
+    content: "Landscape";
+  }
+}
+@media screen and (orientation: portrait) {
+  // Styles for portrait mode.
+  body::after {
+    content: "Portrait";
+  }
+}
