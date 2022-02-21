@@ -26,10 +26,55 @@
     </title>
   </head>
   <body>
+    <div class="landing__video">
+      <div class="video"></div>
+    </div>
     <!-- == Landing Page ==-->
-    <!-- = Javascript and Frameworks = -->
+    <div class="landing__page">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="#" class="logo"></a>
+          </div>
+          <div class="nav__list">
+            <ul class="list-movie">
+              <li><a href="#" target="_blank">Home</a></li>
+              <li><a href="#" target="_blank">Movies</a></li>
+              <li><a href="#" target="_blank">Series</a></li>
+              <li><a href="#" target="_blank">New & Popular</a></li>
+            </ul>
+          </div>
+          <div class="nav__user">
+            <div class="user"></div>
+          </div>
+          <div class="nav__on">
+            <button id="btn-on" class="btn-on"><a href="#">Sign In</a></button>
+          </div>
+          <!--Nav Burger-->
+          <div id="active" class="active">
+            <a class="menu__active" href="#"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
+          </div>
+        </nav>
 
+        <!-- == Menu Burger Media == -->
+
+        <div id="burger-media" class="nav__media">
+          <ul class="media-list">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">Movies</a></li>
+            <li><a href="#" target="_blank">Series</a></li>
+            <li><a href="#" target="_blank">New & Popular</a></li>
+          </ul>
+        </div>
+      </header>
+      <main class="main"></main>
+      <footer class="footer"></footer>
+    </div>
+
+    <!-- = Javascript and Frameworks = -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="/src/js/index.js" type="modules"></script>
+    <script src="/src/js/index.js"></script>
   </body>
 </html>

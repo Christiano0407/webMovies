@@ -1,5 +1,6 @@
 /*= Import =*/
 @import url(/src/css/mediaQueries/mediaCSS.css);
+@import url(/src/css/components/component.css);
 /*= Root =*/
 :root {
 -/*=Color Basic=*/
@@ -19,7 +20,7 @@
   --clr-ux-red2: #BF0436;
   --clr-ux-red3: #590222; 
   /*=Typography=*/
-  --font-family-Poppins: 'Montserrat', sans-serif;
+  --font-family-Montserrat: 'Montserrat', sans-serif;
   --font-family-Play: "Play", sans-serif;
   /*=Font Size=*/
   --font-size-extra: 3rem;
@@ -83,4 +84,39 @@ body {
     width: 100%;
     margin: 0 auto;
    /*  font-family: 'Montserrat', sans-serif; */
+   height: 100vh; 
+   font-family: var(--font-family-Montserrat);
+}
+.landing__page {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+}
+.hidden {
+    display: none;
+}
+.landing__video {
+
+}
+.landing__page .header {
+
+}
+.header .nav {
+
+}
+.nav .nav__logo {
+
+}
+.nav__logo .logo {
+
+}
+.nav__list {
+
+}
+.main {
+
+}
+.footer {
+
 }
