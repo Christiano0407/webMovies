@@ -207,6 +207,37 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
 }
 /*= MD  (Tablet) =*/
 @media only screen and (min-width: 768px) {
+  .landing__video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .landing__video .video {
+  }
+  .landing__page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    display: grid;
+  }
+  .active {
+    display: none;
+  }
+  .nav__media {
+    display: none;
+  }
+  /* =======Main==========*/
+  .main__images {
+    display: none;
+  }
+  .main__text {
+    display: none;
+  }
+  .main__btn {
+    display: none;
+  }
 }
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
 }
