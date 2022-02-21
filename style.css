@@ -81,5 +81,6 @@ h1, h2, h3 {
 }
 body {
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+   /*  font-family: 'Montserrat', sans-serif; */
 }
