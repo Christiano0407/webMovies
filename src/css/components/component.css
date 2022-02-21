@@ -1,1 +1,21 @@
 /* Components Btn =*/
+.btn {
+  width: 150px;
+  height: 50px;
+  padding: 1rem;
+  padding: 1rem;
+  outline: none;
+  border: 3px solid var(--clr-secondary);
+  border-radius: 1rem;
+}
+.btn a {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--clr-black-2);
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:active {
+  transform: scale(0.9);
+}
