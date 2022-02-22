@@ -1,6 +1,7 @@
 /* = Media Queries = */
 /*= XS (Mobile First)=*/
-@media only screen and (max-width: 360px) {
+/*360px*/
+@media only screen and (max-width: 480px) {
   .landing__video {
     width: 100%;
     position: absolute;
@@ -210,11 +211,11 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   }
 }
 /*= SM  (Mobile First) =*/
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .main__slider {
     display: none;
   }
-}
+} */
 @media only screen and (min-width: 479px) and (max-width: 767px) {
 }
 /*= MD  (Tablet) ============================*/
