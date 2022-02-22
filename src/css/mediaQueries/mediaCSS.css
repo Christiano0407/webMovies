@@ -515,7 +515,7 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   }
   .footer p {
     font-size: .8rem;
-    color: var(--clr-white); 
+    color: #fff; 
   filter: opacity(0.5);
   font-weight: 500; 
 }
