@@ -25,9 +25,23 @@ btnMenu.addEventListener("click", () => {
 
 // Swiper Slider ===================>>>
 const swiper = new Swiper(".swiper", {
-  slidesPerView: 3,
-  spaceBetween: 25,
-  /*  scrollbar: {
-    el: ".swiper-scrollbar",
-  }, */
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // Responsive breakpoints
+  // when window width is 320 >= 320px
+  breakpoints: {
+    760: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 40,
+    },
+  },
 });

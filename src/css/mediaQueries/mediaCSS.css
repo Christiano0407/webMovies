@@ -372,7 +372,7 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   }
   .main__text--paragraph {
     position: relative;
-    bottom: 450px;
+    bottom: 490px;
     width: 60%;
     left: 8rem;
   }
@@ -415,7 +415,7 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   .swiper {
     width: 600px;
     height: 225px;
-    top: 100px;
+    top: 150px;
   }
   .swiper-slide {
     text-align: center;
@@ -504,7 +504,7 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
     background-repeat: no-repeat;
     border-radius: 1rem;
   }
-  .footer {
+ /*  .footer {
     grid-area: footer;
     width: 100%;
     text-align: center;
@@ -518,14 +518,24 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
     color: #fff; 
   filter: opacity(0.5);
   font-weight: 500; 
-}
+} */
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
 }
 /*=  LG (Laptop) =*/
 @media only screen and (min-width: 1024px) {
+  .swiper {
+    width: 800px;
+    height: 225px;
+    top: 150px;
+  }
 }
 /*=  LG (Laptop and Screen) =*/
 @media only screen and (min-width: 1440px) {
+  .swiper {
+    width: 1000px;
+    height: 250px;
+    top: 150px;
+  }
 }
 /*=  LG (Laptop and Screen and More) =*/
 @media only screen and (min-width: 1920px) {
