@@ -19,3 +19,28 @@
 .btn:active {
   transform: scale(0.9);
 }
+
+.btn-on {
+  width: 80px;
+  height: 25px;
+  padding: 1rem;
+  padding: 1rem;
+  outline: none;
+  border: 3px solid var(--clr-secondary);
+  background: var(--clr-secondary);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-on a {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.btn-on:hover {
+  color: #333;
+}
+.btn-on:active {
+  transform: scale(0.9);
+}
