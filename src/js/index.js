@@ -11,7 +11,37 @@ const tl = gsap.timeline({ default: { ease: "power2.out" } });
 tl.fromTo(
   ".header",
   { y: "-200", opacity: 0 },
-  { y: "0", opacity: 1, delay: 1, duration: 1 },
+  { y: "0", opacity: 1, delay: 1.5, duration: 1.5 },
+  " < "
+);
+tl.fromTo(
+  ".main__images",
+  { opacity: 0 },
+  { opacity: 1, delay: 1.5, duration: 1.5 },
+  " < "
+);
+tl.fromTo(
+  ".main__text",
+  { opacity: 0 },
+  { opacity: 1, delay: 1, duration: 1 },
+  " <  "
+);
+tl.fromTo(
+  ".main__search",
+  { opacity: 0 },
+  { opacity: 1, delay: 1.2, duration: 1.2 },
+  " < "
+);
+tl.fromTo(
+  ".main__btn",
+  { y: "200", opacity: 0 },
+  { y: "0", opacity: 1, delay: 1.5, duration: 1.5 },
+  " < "
+);
+tl.fromTo(
+  ".main__slider",
+  { x: -300, opacity: 0 },
+  { x: "0", opacity: 1, delay: 1.5, duration: 1.5 },
   " < "
 );
 
