@@ -205,9 +205,15 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   .main__search {
     display: none;
   }
+  .main__slider {
+    display: none;
+  }
 }
 /*= SM  (Mobile First) =*/
 @media only screen and (max-width: 480px) {
+  .main__slider {
+    display: none;
+  }
 }
 @media only screen and (min-width: 479px) and (max-width: 767px) {
 }
@@ -398,6 +404,105 @@ background-image: linear-gradient(62deg, #0cf2b1 0%, #ee00cc 100%); */
   }
   .main__btn {
     display: none;
+  }
+  .main__slider {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .swiper {
+    width: 600px;
+    height: 250px;
+    top: 180px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide.one {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie7.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.two {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie4.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.three {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie16.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.four {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie19.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.five {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie23.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.six {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie26.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.seven {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie22.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+  }
+  .swiper-slide.eight {
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/img/movie24.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 1023px) {

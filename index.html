@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -105,11 +109,40 @@
             <a href="/src/html/movieWeb.html" target="_blank">Sign In</a>
           </button>
         </div>
+
+        <div class="main__slider">
+          <!-- Slider main container -->
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide one">Slide 1</div>
+              <div class="swiper-slide two">Slide 2</div>
+              <div class="swiper-slide three">Slide 3</div>
+              <div class="swiper-slide four">Slide 4</div>
+              <div class="swiper-slide five">Slide 5</div>
+              <div class="swiper-slide six">Slide 6</div>
+              <div class="swiper-slide seven">Slide 7</div>
+              <div class="swiper-slide eight">Slide 8</div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <!--   <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+        </div>
       </main>
       <footer class="footer"></footer>
     </div>
 
     <!-- = Javascript and Frameworks = -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script type="module" src="/src/js/index.js"></script>
   </body>

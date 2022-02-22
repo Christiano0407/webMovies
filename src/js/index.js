@@ -5,6 +5,7 @@ console.log(playOne());
 console.log(twoPlay());
 console.log(plugin());
 
+// ===>> Menu Burger <<<===
 // =================== Const
 const btnMenu = document.querySelector(".menu__active");
 const listMedia = document.querySelector(".nav__media");
@@ -20,4 +21,13 @@ btnMenu.addEventListener("click", () => {
     listMedia.classList.remove("hidden");
     listMedia.classList.add("active");
   }
+});
+
+// Swiper Slider ===================>>>
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  spaceBetween: 25,
+  /*  scrollbar: {
+    el: ".swiper-scrollbar",
+  }, */
 });
