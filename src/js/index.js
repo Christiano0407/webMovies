@@ -5,6 +5,16 @@ console.log(playOne());
 console.log(twoPlay());
 console.log(plugin());
 
+// ==== Javascript GSAP ======
+const tl = gsap.timeline({ default: { ease: "power2.out" } });
+
+tl.fromTo(
+  ".header",
+  { y: "-200", opacity: 0 },
+  { y: "0", opacity: 1, delay: 1, duration: 1 },
+  " < "
+);
+
 // ===>> Menu Burger <<<===
 // =================== Const
 const btnMenu = document.querySelector(".menu__active");
