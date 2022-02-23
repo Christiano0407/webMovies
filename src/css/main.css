@@ -159,3 +159,11 @@ cursor: pointer;
 /* .show-list {
     display: flex;
 } */
+.hidden {
+    display: none;
+    visibility: hidden; 
+};
+.visible {
+    display: flex;
+    visibility: visible;
+}
