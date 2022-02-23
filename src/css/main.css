@@ -1,6 +1,6 @@
-/*= Import =*/
-@import url(/src/css/mediaQueries/mediaCSS.css);
-@import url(/src/css/components/component.css);
+/*=Components=*/
+@import url("./mediaQueries/movieQuerie.css");
+@import url("./components/movieComponents.css");
 /*= Root =*/
 :root {
 -/*=Color Basic=*/
@@ -107,13 +107,4 @@ body {
    /*  font-family: 'Montserrat', sans-serif; */
    height: 100vh; 
    font-family: var(--font-family-Montserrat);
-}
-.landing__page {
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  display: grid;
-}
-.hidden {
-    display: none;
 }
