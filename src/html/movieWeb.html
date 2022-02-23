@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Movie Web and Mobile first" />
     <link
       rel="icon"
       href="/src/assets/icon/compact-disc-solid.svg"
-      type="png/images"
+      type="image/png"
       sizes="16x16"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,10 +27,51 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <!--Precargar-->
+    <!--  <link rel="preload" href="/src/js/movieApp.js" /> -->
+    <!--  <link rel="prefetch" href="image.png" /> -->
     <link rel="stylesheet" href="/src/css/main.css" />
     <title>MovieUp | Web Page Movie App | Chris04.com</title>
   </head>
   <body>
+    <header id="header" class="header">
+      <nav id="navigation" class="navigation">
+        <div class="nav__logo">
+          <a href="/src/html/movieWeb.html" class="logo"
+            ><img src="/src/assets/icon/img1.svg" alt="logo"
+          /></a>
+        </div>
+        <div class="nav__list">
+          <ul class="list">
+            <li>
+              <a href="#"><i class="fa-solid fa-house-user"></i>Home</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-film"></i>Movies</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-film"></i>Series</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-star"></i>Originals</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-plus"></i>My List</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__search">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="nav__user"></div>
+        <div class="nav__hamburger"></div>
+      </nav>
+    </header>
+    <aside id="aside" class="aside"></aside>
+    <main id="main" class="main">
+      <section id="container" class="container"></section>
+    </main>
+    <footer id="footer" class="footer"></footer>
     <!-- = Javascript and Frameworks = -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>

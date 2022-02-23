@@ -108,3 +108,18 @@ body {
    height: 100vh; 
    font-family: var(--font-family-Montserrat);
 }
+.header {
+    width: 100%;
+    position: fixed;
+    padding: .5rem  2rem;
+    top: 0; 
+    left: 0; 
+    z-index: 10; 
+    flex-wrap: wrap;
+    transition: 250ms;
+}
+.navigation {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
