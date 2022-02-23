@@ -1,5 +1,8 @@
 /*==Media Queries==*/
 /*=============== Mobile ========================================*/
+@media screen and (max-width: 360px) {
+}
+
 @media only screen and (max-width: 480px) {
   .header {
     height: 6rem;
@@ -11,6 +14,9 @@
   .nav__logo {
     width: 8rem;
   }
+  .logo {
+    transition: 250ms;
+  }
   .nav__list {
     position: absolute;
     width: 100%;
@@ -21,13 +27,13 @@
     top: 6rem;
     border: 2px solid black;
   }
-  .nav__list .list {
+  .list {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    height: 100%;
     align-items: center;
     animation: menu-animation 500ms ease-in-out;
   }
@@ -37,9 +43,65 @@
     from {
     }
   }
+  .list a {
+    font-size: 1.8rem;
+    color: var(--clr-secondary);
+    font-weight: 900;
+    transition: 250ms;
+  }
+  .list a:hover {
+    color: var(--clr-white);
+    filter: opacity(0.5);
+  }
+  .list a i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  .nav__hamburger {
+    transition: 250ms ease-in-out;
+  }
+  .nav__hamburger a {
+    font-size: 2rem;
+  }
 }
+
+/*Option =========================>>>*/
 /*=============== Tablet  ========================================*/
 @media screen and (min-width: 768px) {
+  .header {
+    height: 6rem;
+    transition: top 0.2s linear;
+    flex-wrap: wrap;
+  }
+  .navigation {
+    height: 100%;
+  }
+  .nav__logo {
+    width: 200px;
+  }
+  .nav__list {
+    width: 350px;
+  }
+  .list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .list a::after {
+    content: " ";
+    border: 1px solid #fff;
+    width: 75%;
+    display: flex;
+    margin-top: 0.5rem;
+    background: #fff;
+  }
+  .list i {
+    margin-right: 1rem;
+  }
+  .nav__hamburger a {
+    font-size: 1.5rem;
+    color: #fff;
+  }
 }
 /*=============== Screen Laptop ===================================*/
 @media only screen and (min-width: 1024px) {
