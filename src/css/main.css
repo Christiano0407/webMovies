@@ -131,7 +131,7 @@ cursor: pointer;
     align-items: center;
 }
 .list a {
-    color: #fff;
+    color: #000;
 }
 .list a:hover {
     color: var(--clr-secondary);
@@ -154,3 +154,8 @@ cursor: pointer;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
+
+/*== Display Javascript ==*/
+/* .show-list {
+    display: flex;
+} */
