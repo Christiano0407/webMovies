@@ -98,9 +98,9 @@ img {
 p, span {
     letter-spacing: 0.1rem;
 }
-h1, h2, h3 {
+/* h1, h2, h3 {
     margin-bottom: 2rem;
-}
+} */
 body {
     width: 100%;
     margin: 0 auto;
@@ -177,4 +177,29 @@ cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/src/assets/img/marvel.jpg");
+}
+.main__container {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row;
+}
+.main__container .movies {
+    text-align: center;
+}
+.main__container .movies .title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0px;
+}
+.main__container .movies .poster {
+  /* width: 100%; */
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer; 
 }
