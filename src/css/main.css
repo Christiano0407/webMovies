@@ -129,6 +129,7 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; 
 }
 .list a {
     color: #000;
@@ -159,11 +160,11 @@ cursor: pointer;
 /* .show-list {
     display: flex;
 } */
-.hidden {
+/* .hidden {
     display: none;
     visibility: hidden; 
 };
 .visible {
     display: flex;
     visibility: visible;
-}
+} */
