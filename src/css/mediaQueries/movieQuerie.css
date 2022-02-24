@@ -32,7 +32,7 @@
     left: -100vh;
   }
   .nav__list.active {
-    background-color: #ab04d9;
+    background-color: #05154e;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease-in-out;
@@ -121,20 +121,20 @@
   .list a {
     font-size: 1.2rem;
   }
-  .list a::after {
+  .list a:hover:after {
     content: " ";
     border: 1px solid #fff;
     width: 75%;
     display: flex;
     margin-top: 0.5rem;
     background: #fff;
+    transition: all 0.1s ease-in-out;
   }
   .list i {
     margin-right: 0.5rem;
   }
   .nav__search {
     position: relative;
-    left: 1rem;
   }
   #menu-toggle {
     display: none;
@@ -142,6 +142,12 @@
   /*   .nav__hamburger {
     display: none !important;
   } */
+  /*============Main==================*/
+  .main__index {
+    height: 40vh;
+    max-width: 1400px;
+    min-height: 300px;
+  }
 }
 /*=============== Screen Laptop ===================================*/
 @media only screen and (min-width: 1024px) {

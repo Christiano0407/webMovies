@@ -117,7 +117,7 @@ body {
     z-index: 10; 
     flex-wrap: wrap;
     transition: 250ms;
-    background-color: var(--clr-primary);
+    background-color: #05154e;
 }
 .navigation {
 display: flex;
@@ -162,13 +162,19 @@ cursor: pointer;
     background-repeat: no-repeat;
     border-radius: 50%;
 }
-/*=====Main======*/
+/*===Main ====*/
 .main {
     width: 100%;
     flex-wrap: wrap;
     background-color: #fff;
     margin-top: 6rem;
 }
-.main .nav__index {
+.main__index {
     width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/src/assets/img/marvel.jpg");
 }
