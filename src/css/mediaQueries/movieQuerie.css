@@ -22,12 +22,19 @@
     position: absolute;
     width: 100%;
     height: 70vh;
-    top: 5vh;
-    right: 0;
-    justify-content: center;
     top: 6rem;
+    justify-content: center;
     border: 2px solid black;
     visibility: visible;
+    background-color: var(--clr-white2);
+    opacity: 0;
+    left: -100vh;
+  }
+  .nav__list.active {
+    background-color: #ab04d9;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
   }
   .list {
     width: 100%;
@@ -37,6 +44,7 @@
     flex-direction: column;
     height: 100%;
     align-items: center;
+    margin: 0 auto;
     animation: menu-animation 500ms ease-in-out;
   }
   @keyframes menu-animation {
@@ -60,11 +68,20 @@
     font-size: 1.5rem;
     margin-right: 1rem;
   }
-  .nav__hamburger {
-    transition: 250ms ease-in-out;
+  .nav__hamburger:active {
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
   }
-  .nav__hamburger a {
-    font-size: 2rem;
+  /*Active con Javascript*/
+  #menu-toggle.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #menu-toggle.is-active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  #menu-toggle.is-active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
   }
 }
 

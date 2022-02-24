@@ -131,8 +131,15 @@ cursor: pointer;
     align-items: center;
     flex-direction: column; 
 }
+.nav__hamburger .bar {
+    width: 2.5rem;
+    height: 3px;
+    margin: 3.5px auto;
+    transition: all 0.8s ease-in-out;
+    background-color: #fff;
+}
 .list a {
-    color: #000;
+    color: #fff;
 }
 .list a:hover {
     color: var(--clr-secondary);
