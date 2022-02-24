@@ -12,7 +12,8 @@
     height: 100%;
   }
   .nav__logo {
-    width: 8rem;
+    width: 10rem;
+    height: 17px;
   }
   .logo {
     transition: 250ms;
@@ -68,6 +69,14 @@
     font-size: 1.5rem;
     margin-right: 1rem;
   }
+  .nav__search {
+    position: relative;
+    left: 80px;
+  }
+  .nav__user {
+    position: relative;
+    left: 5rem;
+  }
   .nav__hamburger:active {
     transform: scale(0.9);
     cursor: pointer;
@@ -99,10 +108,10 @@
     height: 100%;
   }
   .nav__logo {
-    width: 200px;
+    width: 180px;
   }
   .nav__list {
-    width: 350px;
+    width: 425px;
   }
   .list {
     display: flex;
@@ -122,6 +131,10 @@
   }
   .list i {
     margin-right: 0.5rem;
+  }
+  .nav__search {
+    position: relative;
+    left: 1rem;
   }
   #menu-toggle {
     display: none;
