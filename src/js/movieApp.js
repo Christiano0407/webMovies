@@ -10,7 +10,5 @@ let hamburgerOpen = false;
 menuToggle.addEventListener("click", () => {
   console.log("active");
   menuToggle.classList.toggle("is-active");
-  menuToggle.classList.toggle("active");
-
-  
+  navList.classList.toggle("active");
 });

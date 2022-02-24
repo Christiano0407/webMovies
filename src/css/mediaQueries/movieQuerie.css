@@ -24,7 +24,7 @@
     height: 70vh;
     top: 6rem;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     visibility: visible;
     background-color: var(--clr-white2);
     opacity: 0;
@@ -71,7 +71,6 @@
   .nav__hamburger:active {
     transform: scale(0.9);
     cursor: pointer;
-    transition: all 0.1s ease-in-out;
   }
   /*Active con Javascript*/
   #menu-toggle.is-active .bar:nth-child(2) {
