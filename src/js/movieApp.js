@@ -30,7 +30,7 @@ const addMovies = async () => {
         movies += `
         <div class="movies">
          <img class="poster" src="https://image.tmdb.org/t/p/w500/${movie.poster_path}">
-         <h1>${movie.title}</h1> 
+         <h1 class="title"> ${movie.title} </h1>
           </div>`;
       });
       // Container =>

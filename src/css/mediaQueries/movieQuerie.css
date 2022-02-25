@@ -91,6 +91,19 @@
   #menu-toggle.is-active .bar:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
   }
+
+  .movies .title {
+    position: relative;
+    bottom: 35rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    font-size: 3rem;
+  }
+  .movies:hover .title {
+    opacity: 1;
+  }
 }
 
 /*Option =========================>>>*/
@@ -157,7 +170,18 @@
     max-width: 1920px;
     gap: 3rem;
   }
-
+  .movies .title {
+    position: relative;
+    bottom: 25rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    font-size: 2rem;
+  }
+  .movies:hover .title {
+    opacity: 1;
+  }
   .main__container .poster {
     width: 100%;
     cursor: pointer;
@@ -193,6 +217,9 @@
   /*=======Footer============*/
   .footer {
     height: 400px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
 /*=============== Screen Laptop ===================================*/

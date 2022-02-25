@@ -195,9 +195,7 @@ cursor: pointer;
     width: 100%;
 }
 .main__container .movies .title {
-  font-size: 1.6rem;
   font-weight: 700;
-  color: #333;
   margin-bottom: 0px;
 }
 .movies:hover .poster {
@@ -276,4 +274,5 @@ align-items: center;
     margin-top: 2rem;
     background-color: #05154e;
     padding: 1rem;
+    display: grid; 
 }
