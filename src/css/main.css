@@ -190,6 +190,9 @@ cursor: pointer;
 }
 .main__container .movies {
     text-align: center;
+    overflow: hidden;
+    margin: 8px;
+    width: 100%;
 }
 .main__container .movies .title {
   font-size: 1.6rem;
@@ -197,11 +200,21 @@ cursor: pointer;
   color: #333;
   margin-bottom: 0px;
 }
+.movies:hover .poster {
+    filter: brightness(0.5);
+    transform: scale(1.3), rotate(5deg);
+  }
 .main__container .movies .poster {
   /* width: 100%; */
   margin-bottom: 0.5rem;
   border-radius: 1rem;
   cursor: pointer; 
+  transition: all 0.9s; 
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.movies .poster:hover {
+ transform: scale(1.3) rotate(5deg); 
 }
 /*=Banner=*/
 .main__banner {
