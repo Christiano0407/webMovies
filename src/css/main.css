@@ -246,12 +246,7 @@ margin: 0 auto;
     font-weight: 500;
     color: #333;
 }
-.btn-banner {
-    padding: 1rem;
-    border-radius: .5rem;
-    outline: none;
-    border: none;
-}
+
 .banner-two {
 grid-area: two;
 width: 100%; 
@@ -289,7 +284,11 @@ align-items: center;
      display: flex;
 }
 .social a {
-    color: #fff; 
+    color: #fff;
+    cursor: pointer;
+}
+.social a:hover {
+  color: var(--clr-secondary);
 }
 .footer__logo {
     width: 100%;

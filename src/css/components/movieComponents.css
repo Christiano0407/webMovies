@@ -1,0 +1,17 @@
+.btn-banner {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-banner:hover {
+  background: var(--clr-secondary);
+  color: #fff;
+}
+.btn-banner:active {
+  transform: scale(0.9);
+}
