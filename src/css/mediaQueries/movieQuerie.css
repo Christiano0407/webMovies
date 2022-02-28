@@ -1,6 +1,12 @@
 /*==Media Queries==*/
 /*=============== Mobile ========================================*/
 @media screen and (max-width: 360px) {
+  .nav__search {
+    display: none;
+  }
+  .main__container {
+    justify-items: center;
+  }
 }
 
 @media only screen and (max-width: 480px) {
