@@ -3,14 +3,14 @@
   border-radius: 0.5rem;
   outline: none;
   border: none;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--clr-secondary);
+  color: #fff;
   font-weight: 700;
   cursor: pointer;
 }
 .btn-banner:hover {
-  background: var(--clr-secondary);
-  color: #fff;
+  background: #fff;
+  color: var(--clr-secondary);
 }
 .btn-banner:active {
   transform: scale(0.9);
