@@ -178,6 +178,20 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-image: url("/src/assets/img/marvel.jpg");
 }
+.index__texts {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.index__texts .index-title {
+    color: #fff;
+    width: 100%;
+}
+.index__texts .index-text {
+  color: #fff;
+  width: 100%;
+  filter: opacity(0.5);
+}
 .main__container {
     width: 100%;
     flex-wrap: wrap;

@@ -166,6 +166,22 @@
     max-width: 1920px;
     min-height: 300px;
   }
+  .index__texts {
+    height: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 1rem;
+  }
+  .index__texts .index-title {
+    font-size: 6rem;
+    font-weight: 900;
+  }
+  .index__texts .index-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
   .main__container {
     max-width: 1920px;
     gap: 3rem;
