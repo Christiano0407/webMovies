@@ -245,6 +245,42 @@
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
+  .about {
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+    display: flex;
+    justify-content: center;
+  }
+  .legal {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+  }
+  .about h2,
+  .legal h2,
+  .contact h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .about ul,
+  .legal ul,
+  .contact ul {
+    margin-left: 1rem;
+  }
+  .about a,
+  .legal a,
+  .contact a {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
 /*=============== Screen Laptop ===================================*/
 @media only screen and (min-width: 1024px) {
