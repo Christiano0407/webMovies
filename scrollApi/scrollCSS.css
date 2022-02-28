@@ -101,3 +101,23 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    outline: 2px solid #000;
+}
+
+/*= Media Queries =*/
+@media only screen and (max-width: 480px) {
+     .container {
+        height: 500px;
+    }
+}
+@media only screen and  (min-width: 768px) {
+  ..container {
+     height: 600px;
+  }
+}
