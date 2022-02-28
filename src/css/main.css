@@ -180,7 +180,7 @@ cursor: pointer;
 }
 .index__texts {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 1rem;
 }
 .index__texts .index-title {
@@ -189,8 +189,20 @@ cursor: pointer;
 }
 .index__texts .index-text {
   color: #fff;
-  width: 100%;
-  filter: opacity(0.5);
+  width: 50%;
+  filter: opacity(0.8);
+}
+.main__index .form {
+    width: 100%;
+}
+.form label {
+ width: 100%;
+}
+.form input {
+width: 50%;
+border: none;
+border-radius: 1rem;
+outline: none;
 }
 .main__container {
     width: 100%;

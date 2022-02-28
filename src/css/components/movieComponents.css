@@ -15,3 +15,23 @@
 .btn-banner:active {
   transform: scale(0.9);
 }
+.btn-form {
+  background: var(--clr-secondary);
+  color: #fff;
+  padding: 1.5rem;
+  margin-left: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn-form:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+}
+.btn-form:active {
+  transform: scale(0.9);
+}
