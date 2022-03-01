@@ -5,9 +5,8 @@ const list = document.getElementById(".list"); // Menu List e links
 const menuToggle = document.getElementById("menu-toggle"); //Mobile-Menu
 //> Intersection Observer=>
 const mainIndex = document.getElementById("main-index");
-const poster = document.querySelectorAll(".poster");
-const banner = document.getElementById("banner");
-const bannerTwo = document.getElementById("bannerTwo");
+const container = document.getElementById("container");
+const movies = document.querySelector(".movies");
 const bannerImg = document.querySelector(".banner-img");
 /* console.log(poster); */
 
