@@ -92,7 +92,7 @@ header nav a.activo {
   min-height: 40.62em;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-    url(../img/backdrop.jpg);
+    url("../src/assets/img/movie18.jpg");
   background-position: center center;
   background-size: cover;
   margin-bottom: 3.12em;
@@ -233,6 +233,10 @@ header nav a.activo {
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
   width: 100%;
   vertical-align: top;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* ---- ----- ----- Media Queries ----- ----- ----- */
