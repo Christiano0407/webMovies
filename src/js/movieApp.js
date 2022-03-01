@@ -48,3 +48,25 @@ const addMovies = async () => {
 };
 
 addMovies();
+
+// GSAP Animation ====>
+const tl = gsap.timeline({ defaults: { ease: "power2.out", duration: 1 } });
+// => Index =>
+tl.fromTo(
+  "#header",
+  { y: "-300", opacity: 0, autoAlpha: 0 },
+  { y: "0", delay: 1, opacity: 1, autoAlpha: 0.5 },
+  " < "
+);
+// => Index Main ==>
+tl.fromTo(
+  "#main-index",
+  { opacity: 0, autoAlpha: 0 },
+  { opacity: 1, autoAlpha: 0.5, delay: 1.2 }
+);
+//==> Container Movies ==>
+tl.fromTo(
+  "#container",
+  { autoAlpha: 0, opacity: 0 },
+  { autoAlpha: 1, opacity: 1, delay: 1.5 }
+);
