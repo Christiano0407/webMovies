@@ -239,6 +239,18 @@ outline: none;
 .movies .poster:hover {
  transform: scale(1.3) rotate(5deg); 
 }
+/*CSS=Intersection Observer*/
+#banner img {
+   opacity: 0;
+   	transition: .7s ease-in-out all;
+}
+#banner img .banner-img {
+	transform: translateX(100px);
+}
+#banner  img.visible {
+    opacity: 1;
+    transform:  translateX(0) ;
+}
 /*=Banner=*/
 .main__banner {
     width: 100%; 

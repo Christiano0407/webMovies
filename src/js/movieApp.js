@@ -3,8 +3,13 @@ const header = document.getElementById("header");
 const navList = document.getElementById("navList"); // Menu y nav-list
 const list = document.getElementById(".list"); // Menu List e links
 const menuToggle = document.getElementById("menu-toggle"); //Mobile-Menu
-
-let hamburgerOpen = false;
+//> Intersection Observer=>
+const mainIndex = document.getElementById("main-index");
+const poster = document.querySelectorAll(".poster");
+const banner = document.getElementById("banner");
+const bannerTwo = document.getElementById("bannerTwo");
+const bannerImg = document.querySelector(".banner-img");
+/* console.log(poster); */
 
 // ==Event ===================>>
 menuToggle.addEventListener("click", () => {
@@ -49,7 +54,30 @@ const addMovies = async () => {
 
 addMovies();
 
-// GSAP Animation ====>
+// Intersection Observer Animation Scroller  ====>>>>>>>>>>>>>>>>
+const addImages = (entries, observer) => {
+  /* console.log(entries);
+  console.log(observer); */
+
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+    } else {
+      entry.target.classList.remove("visible");
+    }
+  });
+};
+
+const observer = new IntersectionObserver(addImages, {
+  root: null,
+  rootMargin: `500px 0px 100px 0px`,
+  threshold: 1.0,
+});
+
+/* observer.observe(bannerTwo); */
+observer.observe(bannerImg);
+
+// GSAP Animation ====>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 const tl = gsap.timeline({ defaults: { ease: "power2.out", duration: 1 } });
 // => Index =>
 tl.fromTo(
@@ -62,11 +90,24 @@ tl.fromTo(
 tl.fromTo(
   "#main-index",
   { opacity: 0, autoAlpha: 0 },
-  { opacity: 1, autoAlpha: 0.5, delay: 1.2 }
+  { opacity: 1, autoAlpha: 0.5, delay: 1 }
 );
 //==> Container Movies ==>
 tl.fromTo(
   "#container",
   { autoAlpha: 0, opacity: 0 },
-  { autoAlpha: 1, opacity: 1, delay: 1.5 }
+  { autoAlpha: 1, opacity: 1, delay: 1 }
+);
+/* tl.from(".poster", { x: "-300", opacity: 0 }); */
+// BANNER ==>
+/* tl.fromTo(
+  "#banner",
+  { autoAlpha: 0, opacity: 0 },
+  { autoAlpha: 1, opacity: 1, delay: 1 }
+); */
+// Footer ===>>>
+tl.fromTo(
+  "#footer",
+  { autoAlpha: 0, opacity: 0 },
+  { autoAlpha: 1, opacity: 1, delay: 1 }
 );
