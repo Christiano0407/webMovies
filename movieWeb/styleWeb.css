@@ -106,3 +106,29 @@ body {
   content: " ";
   background-color: #036cb6;
 }
+.nav__link--btn {
+  border: 1.5px solid #036cb6;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  letter-spacing: 0.1rem;
+}
+.nav__link--btn:hover {
+  background: var(--clr-ux-2);
+  color: #f2f2f2;
+  border-color: #333;
+}
+.nav__link--btn--hight {
+  background-color: #5cb9f2;
+  color: #f4f4f4;
+  border-color: #036cb6;
+}
+.nav__link--btn--hight:hover {
+  background: #000;
+  border-color: #fff;
+}
+/*= CSS = Javascript =*/
+.nav-scrolled {
+  background: #f2f2f2;
+  color: #333;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}

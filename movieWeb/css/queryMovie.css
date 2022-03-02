@@ -44,6 +44,10 @@
   .nav__link:hover::after {
     transform: scale(1);
   }
+  .nav__link--btn {
+    padding: 0.75rem 1.5rem;
+    transition: background 250ms ease-in-out;
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {
