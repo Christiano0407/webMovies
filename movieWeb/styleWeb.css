@@ -1,31 +1,32 @@
 /*====== Import Components========*/
-@import url("./css/queryMovie.css");
-@import url("./css/componentMovie.css");
+@import url("../movieWeb/css/queryMovie.css");
+@import url("../movieWeb/css/componentMovie.css");
 /*======Root========*/
 :root {
-    /*=Colors=*/
-    --clr-white: #fff; 
-    --clr-black: #000;
-    --clr-ux-1: #5CB9F2; 
-    --clr-ux-2: #6DCCF2; 
-    --clr-ux-3: #03A62C; 
-    --clr-ux-4: #8FD994; 
-    --clr-ux-white: #F2F2F2; 
-    --clr-ux-black: #333; 
-    --clr-yellow: #ffd602; 
-    --clr-blue: #036cb6; 
-    --clr-red: #d5040a; 
-    --color-scheme: normal;
-    --color-scheme: light;
-    --color-scheme: dark;
-   --color-scheme: light dark;
+  /*=Colors=*/
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-ux-1: #5cb9f2;
+  --clr-ux-2: #6dccf2;
+  --clr-ux-3: #03a62c;
+  --clr-ux-4: #8fd994;
+  --clr-ux-white: #f2f2f2;
+  --clr-ux-black: #333;
+  --clr-yellow: #ffd602;
+  --clr-blue: #036cb6;
+  --clr-red: #d5040a;
+  --color-scheme: normal;
+  --color-scheme: light;
+  --color-scheme: dark;
+  --color-scheme: light dark;
   /*=Fonts=*/
-    --font-size-title: 2.4rem: 
-    --font-size-titTwo: 1.8rem; 
-    --font-size-medium: 1.6rem; 
-    --font-size-small: 1.2rem; 
+  --font-size-title: 2.4rem;
+  --font-size-titTwo: 1.8rem;
+  --font-size-medium: 1.6rem;
+  --font-size-small: 1.2rem;
   /*=Typography=*/
-   --font-family: ;
+  --font-family-Poppins: "Poppins", sans-serif;
+  --font-family-Play: "Play", sans-serif;
   /*=margin=*/
   --margin-top: 2rem;
   --margin-left: 1rem;
@@ -79,7 +80,29 @@ h1 {
 }
 body {
   width: 100%;
+  font-family: var(--font-family-Poppins);
+}
+.movie-logo {
+  color: #f4f4f4;
 }
 .header {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav__link {
+  --spacing: 1rem;
+  color: #f2f2f2;
+  display: inline-block;
+  font-family: var(--font-family-Play);
+}
+.nav__link::after {
+  content: " ";
+  background-color: #036cb6;
 }

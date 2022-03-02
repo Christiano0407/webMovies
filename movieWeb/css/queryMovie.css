@@ -1,21 +1,56 @@
 /*=============Mobile============*/
-@media only and (max-width: 360px) {
+@media screen and (max-width: 360px) {
 }
-@media only and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .header {
   }
 }
-@media and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
 }
 /*============= Laptop and  Tablet============*/
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .header {
+    position: fixed;
+    /*  background: transparent; */
+    background: #000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 2rem 3rem;
+    transition: background 250ms ease-in;
+  }
+  .movie-logo {
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  .nav__link {
+    padding: calc(var(--spacing) / 2) var(--spacing);
+    position: relative;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  .nav__link::after {
+    position: absolute;
+    bottom: 0;
+    left: var(--spacing);
+    right: var(--spacing);
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 150ms ease-in-out;
+  }
+  .nav__link:hover::after {
+    transform: scale(1);
+  }
 }
 /*=============Screen All and 4k and 8k============*/
-@media only screen (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 }
-@media only screen (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
 }
-@media only screen (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
 }
 
 /* Design Model ====================================================*/
