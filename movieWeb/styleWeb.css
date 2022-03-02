@@ -132,3 +132,46 @@ body {
   color: #333;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
+
+/*=Main=*/
+#main {
+  width: 100%;
+  background: #000;
+}
+.main__principal {
+  width: 100%;
+}
+.main__trends {
+  width: 100%;
+  color: #f2f2f2;
+  padding: 1rem;
+}
+.border-One {
+  position: relative;
+  background: #36393a;
+}
+.trends-list {
+  width: 100%;
+  cursor: pointer;
+}
+.trends-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trends-principal a {
+  color: #fff;
+}
+.trends-principal a:hover {
+  color: #036cb6;
+}
+.trends-principal a i {
+  color: #fff;
+}
+.trends-principal i:hover {
+  color: #5cb9f2;
+}
+.border-two {
+  position: relative;
+  background: #36393a;
+}

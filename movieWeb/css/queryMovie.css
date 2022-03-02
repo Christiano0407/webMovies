@@ -48,6 +48,47 @@
     padding: 0.75rem 1.5rem;
     transition: background 250ms ease-in-out;
   }
+
+  /*=Main=*/
+  .main__principal {
+    min-height: 50.5rem;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+      url("/src/assets/img/marvel.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    /*  margin-bottom: 2rem; */
+  }
+  .border-One {
+    width: 50px;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .trends-list {
+    height: 5rem;
+  }
+  .trends-principal {
+    height: 100%;
+  }
+  .trends-principal a {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .trends-principal a i {
+    margin-right: 1rem;
+  }
+  .border-two {
+    width: 100%;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {
