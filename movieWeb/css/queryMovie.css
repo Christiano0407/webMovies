@@ -2,6 +2,8 @@
 @media only and (max-width: 360px) {
 }
 @media only and (max-width: 480px) {
+  .header {
+  }
 }
 @media and (min-width: 481px) and (max-width: 767px) {
 }
