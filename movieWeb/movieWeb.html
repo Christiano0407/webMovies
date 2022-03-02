@@ -29,6 +29,10 @@
       href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="../movieWeb/styleWeb.css" />
     <title>MovieGhost|Web Movies Api | Javascript Vanilla and Frameworks</title>
   </head>
@@ -93,11 +97,35 @@
         </div>
         <div class="border-two"></div>
       </section>
-      <section id="conteiner" class="container"></section>
+      <section id="conteiner" class="container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide one">Slide 1</div>
+            <div class="swiper-slide two">Slide 2</div>
+            <div class="swiper-slide three">Slide 3</div>
+            <div class="swiper-slide four">Slide 4</div>
+            <div class="swiper-slide five">Slide 5</div>
+            <div class="swiper-slide six">Slide 6</div>
+            <div class="swiper-slide seven">Slide 7</div>
+            <div class="swiper-slide eight">Slide 8</div>
+            <div class="swiper-slide nine">Slide 9</div>
+            <div class="swiper-slide ten">Slide 10</div>
+            ...
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer"></footer>
     <!--Javascript and Frameworks-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="/movieWeb/movieWebJs.js"></script>
   </body>
 </html>

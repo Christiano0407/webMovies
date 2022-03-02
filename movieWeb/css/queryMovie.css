@@ -89,6 +89,51 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
+  .container {
+    outline: 2px solid #000;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 300px;
+  }
+  .swiper {
+    height: 100%;
+  }
+  .swiper-slide {
+    height: 100%;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+  }
+  .swiper-slide.one {
+    background-image: url("/src/assets/img/marvel.jpg");
+  }
+  .swiper-slide.two {
+    background-image: url("/src/assets/img/movie4.jpg");
+  }
+  .swiper-slide.three {
+    background-image: url("/src/assets/img/movie1.jpg");
+  }
+  .swiper-slide.four {
+    background-image: url("/src/assets/img/movie15.jpg");
+  }
+  .swiper-slide.five {
+    background-image: url("/src/assets/img/movie16.jpg");
+  }
+  .swiper-slide.six {
+    background-image: url("/src/assets/img/movie26.jpg");
+  }
+  .swiper-slide.seven {
+    background-image: url("/src/assets/img/movie24.jpg");
+  }
+  .swiper-slide.eight {
+    background-image: url("/src/assets/img/marvel.jpg");
+  }
+  .swiper-slide.nine {
+    background-image: url("/src/assets/img/movie19.jpg");
+  }
+  .swiper-slide.ten {
+    background-image: url("/src/assets/img/movie22.jpg");
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {

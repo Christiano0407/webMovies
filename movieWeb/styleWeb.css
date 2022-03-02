@@ -175,3 +175,25 @@ body {
   position: relative;
   background: #36393a;
 }
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+.swiper {
+  width: 100%;
+}
+.swiper-slide {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.swiper-button-next {
+  color: #fff;
+  font-weight: 900;
+}
+.swiper-button-prev {
+  color: #fff;
+  font-weight: 900;
+}
