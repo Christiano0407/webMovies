@@ -1,0 +1,31 @@
+/*=============Mobile============*/
+@media only and (max-width: 360px) {
+}
+@media only and (max-width: 480px) {
+}
+@media and (min-width: 481px) and (max-width: 767px) {
+}
+/*============= Laptop and  Tablet============*/
+@media and (min-width: 768px) {
+}
+/*=============Screen All and 4k and 8k============*/
+@media only screen (min-width: 1024px) {
+}
+@media only screen (min-width: 1440px) {
+}
+@media only screen (min-width: 1920px) {
+}
+
+/* Design Model ====================================================*/
+@media screen and (orientation: landscape) {
+  // Styles for landscape mode.
+  body::after {
+    content: "Landscape";
+  }
+}
+@media screen and (orientation: portrait) {
+  // Styles for portrait mode.
+  body::after {
+    content: "Portrait";
+  }
+}

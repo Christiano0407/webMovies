@@ -1,0 +1,82 @@
+/*====== Import Components========*/
+@import url("./css/queryMovie.css");
+@import url("./css/componentMovie.css");
+/*======Root========*/
+:root {
+    /*=Colors=*/
+    --clr-white: #fff; 
+    --clr-black: #000;
+    --clr-ux-1: #5CB9F2; 
+    --clr-ux-2: #6DCCF2; 
+    --clr-ux-3: #03A62C; 
+    --clr-ux-4: #8FD994; 
+    --clr-ux-white: #F2F2F2; 
+    --clr-ux-black: #333; 
+    --clr-yellow: #ffd602; 
+    --clr-blue: #036cb6; 
+    --clr-red: #d5040a; 
+    --color-scheme: normal;
+    --color-scheme: light;
+    --color-scheme: dark;
+   --color-scheme: light dark;
+  /*=Fonts=*/
+    --font-size-title: 2.4rem: 
+    --font-size-titTwo: 1.8rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-small: 1.2rem; 
+  /*=Typography=*/
+   --font-family: ;
+  /*=margin=*/
+  --margin-top: 2rem;
+  --margin-left: 1rem;
+  --margin-right: 1rem;
+  --margin--bottom: 2rem;
+}
+/* === General CSS ===*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* =Animation =*/
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+p,
+span {
+  letter-spacing: 0.1rem;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+body {
+  width: 100%;
+}
