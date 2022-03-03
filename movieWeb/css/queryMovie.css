@@ -186,6 +186,46 @@
   .year {
     font-size: 1.2rem;
   }
+  /*Container Two*/
+  .swiper-slide.onePlus {
+    background-image: url("/src/assets/img/ironman.jpg");
+  }
+  .swiper-slide.twoPlus {
+    background-image: url("/src/assets/img/spider-manfarfromhome.jpg");
+  }
+  .swiper-slide.threePlus {
+    background-image: url("/src/assets/img/shangchi.jpg");
+  }
+  .swiper-slide.fourPlus {
+    background-image: url("/src/assets/img/thor.jpg");
+  }
+  .swiper-slide.fivePlus {
+    background-image: url("/src/assets/img/blackwidow.jpg");
+  }
+  .swiper-slide.sixPlus {
+    background-image: url("/src/assets/img/captainamericathefirstavenger.jpg");
+  }
+  .swiper-slide.sevenPlus {
+    background-image: url("/src/assets/img/doctorstrange.jpg");
+  }
+  .swiper-slide.eightPlus {
+    background-image: url("/src/assets/img/avengersendgame.jpg");
+  }
+  .swiper-slide.ninePlus {
+    background-image: url("/src/assets/img/avengersinfinitywa.jpg");
+  }
+  .swiper-slide.tenPlus {
+    background-image: url("/src/assets/img/theincrediblehulk.jpg");
+  }
+  .swiper-slide.elevenPlus {
+    background-image: url("/src/assets/img/thorragnarok.jpg");
+  }
+  .swiper-slide.oneAdd {
+    background-image: url("/src/assets/img/blackwidow.jpg");
+  }
+  .swiper-slide.onePlusExt {
+    background-image: url("/src/assets/img/theincrediblehulk.jpg");
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {
