@@ -103,36 +103,54 @@
     border-radius: 1rem;
     border: none;
     outline: none;
+    position: relative;
+    z-index: 1;
   }
   .swiper-slide.one {
-    background-image: url("/src/assets/img/marvel.jpg");
+    background-image: url("/src/assets/img/avengersinfinitywa.jpg");
   }
   .swiper-slide.two {
-    background-image: url("/src/assets/img/movie4.jpg");
+    background-image: url("/src/assets/img/avengersendgame.jpg");
   }
   .swiper-slide.three {
-    background-image: url("/src/assets/img/movie1.jpg");
+    background-image: url("/src/assets/img/doctorstrangeinthemultiverseofmadness.jpg");
   }
   .swiper-slide.four {
-    background-image: url("/src/assets/img/movie15.jpg");
+    background-image: url("/src/assets/img/eternals.jpg");
   }
   .swiper-slide.five {
-    background-image: url("/src/assets/img/movie16.jpg");
+    background-image: url("/src/assets/img/blackpanther.jpg");
   }
   .swiper-slide.six {
-    background-image: url("/src/assets/img/movie26.jpg");
+    background-image: url("/src/assets/img/blackwidow.jpg");
   }
   .swiper-slide.seven {
-    background-image: url("/src/assets/img/movie24.jpg");
+    background-image: url("/src/assets/img/captainamericathefirstavenger.jpg");
   }
   .swiper-slide.eight {
-    background-image: url("/src/assets/img/marvel.jpg");
+    background-image: url("/src/assets/img/doctorstrange.jpg");
   }
   .swiper-slide.nine {
-    background-image: url("/src/assets/img/movie19.jpg");
+    background-image: url("/src/assets/img/thorragnarok.jpg");
   }
   .swiper-slide.ten {
-    background-image: url("/src/assets/img/movie22.jpg");
+    background-image: url("/src/assets/img/thor.jpg");
+  }
+  .swiper-slide.eleven {
+    background-image: url("/src/assets/img/ironman.jpg");
+  }
+  .movie-data {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .data-year {
+    width: 100%;
+  }
+  .year {
+    font-size: 1.2rem;
   }
 }
 /*=============Screen All and 4k and 8k============*/

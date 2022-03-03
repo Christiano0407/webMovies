@@ -136,7 +136,7 @@ body {
 /*=Main=*/
 #main {
   width: 100%;
-  background: #000;
+  background: #111;
 }
 .main__principal {
   width: 100%;
@@ -196,4 +196,34 @@ body {
 .swiper-button-prev {
   color: #fff;
   font-weight: 900;
+}
+.movie-data {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+.movie-data .movie-name {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.movie-data .data-year {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.data-year .year {
+  color: #fff;
+  filter: opacity(0.5);
+}
+.data-year a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.data-year a:active {
+  transform: scale(0.9);
 }
