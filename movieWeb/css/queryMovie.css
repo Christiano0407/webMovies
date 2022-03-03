@@ -54,13 +54,41 @@
     min-height: 50.5rem;
     color: #fff;
     background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
-      url("/src/assets/img/marvel.jpg");
+      url("/src/assets/img/dr.strange_darkness.jpg");
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     display: flex;
-    /*  margin-bottom: 2rem; */
+    margin-bottom: 2rem;
+    margin: 0 auto;
+  }
+  .principal__add {
+    width: 60%;
+    height: 50.5rem;
+    margin-left: 3rem;
+  }
+  .principal__duration {
+    width: 350px;
+  }
+  .title-one {
+    font-size: 3.5rem;
+  }
+  .title-text {
+    font-size: 1rem;
+  }
+  .principal__btn {
+    width: 300px;
+  }
+  .btn-one {
+    width: 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .btn-two {
+    width: 100px;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
   .border-One {
     width: 50px;

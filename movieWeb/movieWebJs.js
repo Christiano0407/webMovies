@@ -1,5 +1,6 @@
 console.log("Movies App");
-// ==> Swiper Carousel {
+// ==> Swiper Carousel
+//>>>>>>
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
