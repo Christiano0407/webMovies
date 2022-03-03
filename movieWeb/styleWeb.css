@@ -188,6 +188,13 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  cursor: pointer;
+}
+.swiper-slide:active {
+  filter: brightness(0.5);
+}
+.swiper-slide:hover {
+  transform: scale(1.1);
 }
 .swiper-button-next {
   color: #fff;

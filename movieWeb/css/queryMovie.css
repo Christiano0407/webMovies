@@ -139,6 +139,12 @@
   .swiper-slide.eleven {
     background-image: url("/src/assets/img/ironman.jpg");
   }
+  .swiper-button-prev:active {
+    filter: opacity(0.5);
+  }
+  .swiper-button-next:active {
+    filter: opacity(0.5);
+  }
   .movie-data {
     height: 100%;
     width: 100%;
