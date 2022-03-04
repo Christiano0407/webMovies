@@ -1,4 +1,7 @@
 console.log("Movies App");
+//> Const >
+const containerMarvel = document.getElementById("containerMarvel");
+
 // ==> Swiper Carousel
 //>>>>>>
 const swiper = new Swiper(".swiper", {
@@ -25,3 +28,14 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+// => API Marvel Character ==>
+
+const marvelAdd = async () => {
+  try {
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+marvelAdd();
