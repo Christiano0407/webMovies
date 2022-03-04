@@ -1,6 +1,5 @@
 console.log("Movies App");
 //> Const >
-const containerMarvel = document.getElementById("containerMarvel");
 
 // ==> Swiper Carousel
 //>>>>>>
@@ -28,14 +27,35 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
-
-// => API Marvel Character ==>
-
-const marvelAdd = async () => {
+//> Api Marvel>
+/* const addMarvel = async () => {
   try {
+    const response = await fetch(
+      "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=db1160edf7e8c59f7579740be46f5d61&hash=CD7785C400226AA73F07E97EE3D1B36C"
+    );
+
+    // Status >
+    if (response.status === 200) {
+      const data = await response.json();
+     let characters = " ";
+
+     data.results.forEach((character) => {
+     characters += ` {
+
+     }`
+     });
+      //> Container >
+       document.getElementById("containerMarvel").innerHTML = characters;
+
+    } else if (response.data.status === 400) {
+      console.log("Error! Character and pages not exist");
+    } else {
+      console.log("Page Not exist in this Web");
+    }
   } catch (error) {
     console.log(error);
   }
 };
+addMarvel(); */
 
-marvelAdd();
+// => API Marvel Character ==>
