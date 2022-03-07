@@ -1,0 +1,14 @@
+.marvel-btn {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: red;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.marvel-btn:active {
+  transform: scale(0.9);
+}

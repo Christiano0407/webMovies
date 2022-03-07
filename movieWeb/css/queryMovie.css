@@ -226,6 +226,25 @@
   .swiper-slide.onePlusExt {
     background-image: url("/src/assets/img/theincrediblehulk.jpg");
   }
+  .container__Marvel {
+    width: 100%;
+    height: 300px;
+  }
+  .marvel-img {
+    width: 100%;
+    height: 100%;
+  }
+  .marvel {
+    width: 60%;
+    bottom: 180px;
+    left: 20px;
+  }
+  .marvel-banner {
+    font-size: 2.5rem;
+  }
+  .marvel-btn {
+    margin-left: 1.5rem;
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {
