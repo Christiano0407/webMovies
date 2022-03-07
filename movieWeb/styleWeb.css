@@ -311,6 +311,32 @@ body {
   grid-area: info;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+}
+.movie-text {
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.movie-text span {
+  color: #f2f2f2;
+  filter: brightness(0.5);
+  padding: 1rem;
+}
+.movie-text h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.movie-text p {
+  color: #f4f4f4;
+  filter: opacity(0.5);
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin: 1rem auto;
 }
 .video-play {
   grid-area: video;

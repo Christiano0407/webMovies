@@ -228,17 +228,34 @@
   }
   /*Video Marvel*/
   .container__video {
-    height: 800px;
+    height: 650px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
-    outline: 2px solid white;
+    /*  outline: 2px solid white; */
     grid-template-areas:
       "info  video   video"
       "info  video  video"
       "slide slide   slide";
   }
   .info-movie {
+  }
+  .movie-text {
+    width: 100%;
+  }
+  .movie-text h2 {
+    font-size: 2.4rem;
+    padding: 1rem;
+  }
+  .movie-text p {
+    font-size: 1.2rem;
+  }
+  .movie-text figure {
+    width: 100%;
+    height: 150px;
+  }
+  .movie-text figure img {
+    object-fit: cover;
   }
   .video-play {
   }
