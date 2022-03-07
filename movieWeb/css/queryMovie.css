@@ -326,6 +326,20 @@
     margin: 0 auto;
     margin-bottom: 2rem;
   }
+  .footer {
+    height: 400px;
+  }
+  .footer__section {
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .footer-title h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 900;
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {
