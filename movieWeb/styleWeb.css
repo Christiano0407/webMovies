@@ -301,6 +301,43 @@ body {
 .data-year a:active {
   transform: scale(0.9);
 }
+/*Video Marvel Container*/
+.container__video {
+  margin: 2rem auto;
+  width: 100%;
+  display: grid;
+}
+.info-movie {
+  grid-area: info;
+  width: 100%;
+  height: 100%;
+}
+.video-play {
+  grid-area: video;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.video-slide {
+  grid-area: slide;
+  width: 100%;
+  height: 100%;
+}
+.play-up {
+  position: relative;
+  z-index: 10;
+  color: #f2f2f2;
+  border: 3px solid #fff;
+  font-weight: 900;
+  border-radius: 20%;
+  padding: 1.5rem;
+}
+.play-up:hover {
+  border: 4px solid var(--clr-ux-2);
+}
+.play-up:active {
+  transform: scale(0.9);
+}
 /*= API MARVEL CONTAINER Character =*/
 .container__Marvel {
   margin: 3rem auto;

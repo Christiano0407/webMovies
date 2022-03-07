@@ -226,6 +226,46 @@
   .swiper-slide.onePlusExt {
     background-image: url("/src/assets/img/theincrediblehulk.jpg");
   }
+  /*Video Marvel*/
+  .container__video {
+    height: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    outline: 2px solid white;
+    grid-template-areas:
+      "info  video   video"
+      "info  video  video"
+      "slide slide   slide";
+  }
+  .info-movie {
+  }
+  .video-play {
+  }
+  .play-one {
+    width: 100%;
+    height: 100%;
+  }
+  .play-one img {
+    filter: brightness(0.3);
+  }
+  .play-up {
+    font-size: 2rem;
+    left: 50%;
+    bottom: 50%;
+    cursor: pointer;
+  }
+  .video-slide {
+  }
+  .swipVideo {
+    display: flex;
+    align-items: center;
+  }
+  .video-swipp {
+    height: 50%;
+  }
+
+  /*Container Marvel*/
   .container__Marvel {
     width: 100%;
     height: 300px;
