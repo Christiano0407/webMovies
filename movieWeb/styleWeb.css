@@ -129,11 +129,10 @@ body {
 }
 /*= CSS = Javascript =*/
 .nav-scrolled {
-  background: #f2f2f2;
-  color: #333;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  color: #111;
+  background: #036cb6;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
 }
-
 /*=Main=*/
 #main {
   width: 100%;
@@ -581,3 +580,4 @@ body {
 .footer__social a:active {
   transform: scale(0.9);
 }
+/*Nav-scrolled*/

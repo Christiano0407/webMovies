@@ -1,8 +1,31 @@
 console.log("Movies App");
 //> Const >
 const header = document.getElementById("header");
+const nav = document.getElementById("nav");
 const main = document.getElementById("main");
-const homeIntro = document.querySelector("home__intro");
+const homeIntro = document.querySelector(".home__intro");
+const conteiner = document.getElementById("conteiner");
+
+const sectionOneOptions = {
+  rootMargin: "-200px 0px 0px 0px",
+};
+
+//> Intersection Observer ==>
+const sectionOneObserver = new IntersectionObserver(function (
+  entries,
+  sectionOneObserver
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      header.classList.add("nav-scrolled");
+    } else {
+      header.classList.remove("nav-scrolled");
+    }
+  });
+},
+sectionOneOptions);
+
+sectionOneObserver.observe(conteiner);
 
 // ==> Swiper Carousel
 //>>>>>>
@@ -30,35 +53,3 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
-//> Api Marvel>
-/* const addMarvel = async () => {
-  try {
-    const response = await fetch(
-      "https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=db1160edf7e8c59f7579740be46f5d61&hash=CD7785C400226AA73F07E97EE3D1B36C"
-    );
-
-    // Status >
-    if (response.status === 200) {
-      const data = await response.json();
-     let characters = " ";
-
-     data.results.forEach((character) => {
-     characters += ` {
-
-     }`
-     });
-      //> Container >
-       document.getElementById("containerMarvel").innerHTML = characters;
-
-    } else if (response.data.status === 400) {
-      console.log("Error! Character and pages not exist");
-    } else {
-      console.log("Page Not exist in this Web");
-    }
-  } catch (error) {
-    console.log(error);
-  }
-};
-addMarvel(); */
-
-// => API Marvel Character ==>
