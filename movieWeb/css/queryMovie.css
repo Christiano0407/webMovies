@@ -340,6 +340,27 @@
     color: #fff;
     font-weight: 900;
   }
+  .footer-call {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+  .footer-call ul a {
+    font-size: 1.6rem;
+  }
+  .footer__social {
+    height: 100%;
+  }
+
+  .footer__social h3 {
+    font-size: 1.8rem;
+  }
+  .footer__social ul {
+    height: 70%;
+  }
+  .footer__social a {
+    font-size: 2.5rem;
+  }
 }
 /*=============Screen All and 4k and 8k============*/
 @media screen and (min-width: 1024px) {

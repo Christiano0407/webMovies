@@ -1,5 +1,8 @@
 console.log("Movies App");
 //> Const >
+const header = document.getElementById("header");
+const main = document.getElementById("main");
+const homeIntro = document.querySelector("home__intro");
 
 // ==> Swiper Carousel
 //>>>>>>
