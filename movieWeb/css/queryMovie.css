@@ -356,10 +356,14 @@
     font-size: 1.8rem;
   }
   .footer__social ul {
-    height: 70%;
+    height: 80%;
   }
   .footer__social a {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
+  .footer__social a i {
+    font-size: 22.5px;
   }
 }
 /*=============Screen All and 4k and 8k============*/
